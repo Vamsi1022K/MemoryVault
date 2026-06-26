@@ -6,6 +6,9 @@ export default function Page() {
       <SignUp
         routing="path"
         path="/sign-up"
+        signInUrl="/sign-in"
+        forceRedirectUrl="/dashboard"
+        fallbackRedirectUrl="/dashboard"
         appearance={{
           elements: {
             card: "bg-slate-900 border border-slate-800 text-slate-100 rounded-2xl shadow-2xl p-6",
